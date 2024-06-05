@@ -1,0 +1,141 @@
+{
+    "layer": "top",
+    "height": 34,
+    "modules-right": [
+        "cpu",
+        "custom/cpu-icon",
+        "memory",
+        "custom/memory-icon",
+        "disk",
+        "custom/disk-icon",
+        "network",
+        "custom/network-icon",
+        "pulseaudio",
+        "custom/pulseaudio-icon",
+        "group/group-power"
+    ],
+    "modules-left": [
+        "hyprland/workspaces",
+        "clock"
+    ],
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons": {
+            "1": "<span font-weight=\"bold\" color=\"#E0998F\">1</span>",
+            "2": "<span font-weight=\"bold\" color=\"#F3EED9\">2</span>",
+            "3": "<span font-weight=\"bold\" color=\"#D1E7E0\">3</span>",
+            "4": "<span font-weight=\"bold\" color=\"#D2BFE2\">4</span>",
+            "5": "<span font-weight=\"bold\" color=\"#D7A68D\">5</span>",
+            "urgent": "",
+            "active": "<span color=\"#E6F4EA\">/</span>",
+            "default": ""
+        },
+        "sort-by-number": true
+    },
+    "cpu": {
+        "interval": 10,
+        "format": " {usage}% ",
+        "max-length": 10,
+        "states": {
+            "warning": 60,
+            "high": 85
+        }
+    },
+    "custom/cpu-icon": {
+        "format": "󰭄 "
+    },
+    "memory": {
+        "interval": 30,
+        "format": "{}% ",
+        "max-length": 10,
+        "states": {
+            "warning": 60,
+            "high": 85
+        }
+    },
+    "custom/memory-icon": {
+        "format": " "
+    },
+    "disk": {
+        "format": "{percentage_used}% "
+    },
+    "custom/disk-icon": {
+        "format": " "
+    },
+    "network": {
+        // "format": "{ifname}",
+        "format-wifi": "{bandwidthTotalBits} ",
+        "format-ethernet": "{bandwidthTotalBits} <span color=\"#B0648B\">󰊗</span>",
+        "format-disconnected": "<span color=\"#B0648B\">󱚼</span>", //An empty format will hide the module.
+        "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    },
+    "custom/network-icon": {
+        "format": " "
+    },
+    "pulseaudio": {
+        "format": "{volume}% <span color=\"#905cb1\">{icon}</span>",
+        "format-bluetooth": "{volume}% <span color=\"#905cb1\">{icon}</span>",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ],
+        "max-volume": 150
+    },
+    "group/group-power": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-power",
+            "transition-left-to-right": false
+        },
+        "modules": [
+            "custom/power", // First element is the "group leader" and won't ever be hidden
+            "custom/quit",
+            "custom/lock",
+            "custom/reboot"
+        ]
+    },
+    "custom/quit": {
+        "format": "󰗼",
+        "tooltip": false,
+        "on-click": "hyprctl dispatch exit"
+    },
+    "custom/lock": {
+        "format": "󰍁",
+        "tooltip": false,
+        "on-click": "swaylock"
+    },
+    "custom/reboot": {
+        "format": "󰜉",
+        "tooltip": false,
+        "on-click": "reboot"
+    },
+    "custom/power": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "shutdown"
+    },
+    "clock": {
+        "interval": 60,
+        // "format": "{: %I:%M %p   %d/%m/%Y}",
+        "format": " {:%H:%M <span color=\"#AA68B9\">󰥔</span>   %d/%m/%Y} <span color=\"#888EE5\"></span>",
+        "max-length": 25
+    }
+}

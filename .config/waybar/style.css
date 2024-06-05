@@ -1,0 +1,232 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "CaskaydiaCove NFP";
+}
+
+window#waybar {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+#cpu {
+
+    background-color: #0f0b1f;
+    color: #F7EBFF;
+    padding-left: 25px;
+    font-size: 13px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin-top: 5px;
+}
+
+#custom-cpu-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #5E2A52;
+    background-color: #0f0b1f;
+}
+
+#memory {
+
+    background-color: #0f0b1f;
+    color: #F7EBFF;
+    padding-left: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#custom-memory-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #a4485e;
+    background-color: #0f0b1f;
+}
+
+#disk {
+
+    background-color: #0f0b1f;
+    color: #F7EBFF;
+    padding-left: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#custom-disk-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #DC755C;
+    background-color: #0f0b1f;
+    padding-right: 25px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+#network {
+
+    background-color: #0f0b1f;
+    color: #F7EBFF;
+    margin-left: 60px;
+    padding-left: 25px;
+    font-size: 13px;
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+    margin-top: 5px;
+}
+
+#custom-network-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #B0648B;
+    background-color: #0f0b1f;
+}
+
+#pulseaudio {
+
+    background-color: #0f0b1f;
+    color: #F7EBFF;
+    padding-left: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    padding-right: 25px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-right: 80px;
+}
+
+
+/* #custom-pulseaudio-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: rgb(144, 92, 177);
+    background-color: #0f0b1f;
+    
+} */
+
+#custom-power {
+
+    background-color: #0f0b1f;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-right: 20px;
+    border-radius: 25%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #DA7077;
+}
+
+#custom-quit {
+
+    background-color: #0f0b1f;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-radius: 25%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #fca8ad;
+}
+
+#custom-lock {
+
+    background-color: #0f0b1f;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-radius: 25%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #FF878D;
+}
+
+#custom-reboot {
+
+    background-color: #0f0b1f;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 13px;
+    margin-top: 5px;
+    border-radius: 25%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #C4515B;
+}
+
+#clock {
+
+    background-color: #0f0b1f;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 60px;
+    border-radius: 20%;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #F7EBFF;
+}
+
+/* .custom-clock-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #4A5678;
+    background-color: #0f0b1f;
+    padding-right: 25px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-right: 80px;
+}
+
+.custom-calendar-icon {
+
+    padding-left: 2px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: ;
+    background-color: #0f0b1f;
+    padding-right: 25px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    margin-right: 80px;
+} */
+
+#workspaces {
+
+    /* background-color: #0f0b1f;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 13px; */
+    margin-left: 20px;
+    background: transparent;
+    color: rgb(247, 235, 255);
+}
+
+#workspaces button {
+    background-color: rgb(15, 11, 31);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+}

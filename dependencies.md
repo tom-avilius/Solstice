@@ -40,4 +40,4 @@ Link: [Waybar](https://github.com/Alexays/Waybar)
 ## oh-my-posh
 
 The terminal prompt.
-Link: [oh-my-posh](https://ohmyposh.dev/)
+Link: [oh-my-posh](https://ohmyposh.dev/****)
