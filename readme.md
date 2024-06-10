@@ -11,7 +11,9 @@ This was my first rice and as such is special to me. A lot of its elements were 
   > Above were modified by me.
 
 - [swayNC config](https://github.com/kurtnettle/dotfiles/tree/a34af4152f579d705772273ae2fd45040c1b45a7/swaync) from kurtnettle
-  > Used as is.
+  > Mostly used as is.
+
+I however, am including their configs here, because of the changes done by me.
 
 ## Written by me:
 
