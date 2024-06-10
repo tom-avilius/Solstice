@@ -182,41 +182,8 @@ window#waybar {
     color: #F7EBFF;
 }
 
-/* .custom-clock-icon {
-
-    padding-left: 2px;
-    margin-top: 5px;
-    font-size: 15px;
-    color: #4A5678;
-    background-color: #0f0b1f;
-    padding-right: 25px;
-    border-top-right-radius: 25%;
-    border-bottom-right-radius: 25%;
-    margin-right: 80px;
-}
-
-.custom-calendar-icon {
-
-    padding-left: 2px;
-    margin-top: 5px;
-    font-size: 15px;
-    color: ;
-    background-color: #0f0b1f;
-    padding-right: 25px;
-    border-top-right-radius: 25%;
-    border-bottom-right-radius: 25%;
-    margin-right: 80px;
-} */
-
 #workspaces {
 
-    /* background-color: #0f0b1f;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 13px;
-    margin-left: 20px;
-    margin-top: 5px;
-    font-size: 13px; */
     margin-left: 20px;
     background: transparent;
     color: rgb(247, 235, 255);
@@ -229,4 +196,9 @@ window#waybar {
     font-size: 13px;
     margin-left: 10px;
     margin-top: 5px;
+}
+
+#workspaces button:hover {
+
+    opacity: 0.8;
 }

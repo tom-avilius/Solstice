@@ -7,11 +7,6 @@
 The window manager.
 Link: [Hyprland](https://hyprland.org/)
 
-## Hyprpaper
-
-A wallpaper utility. 
-Link: [Hyprpaper](https://github.com/hyprwm/hyprpaper)
-
 ## SwayNC
 
 A notification daemon
