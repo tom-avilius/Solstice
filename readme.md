@@ -7,11 +7,13 @@ This was my first rice and as such is special to me. A lot of its elements were 
 
 ## Dots that are not mine or those which I have slightly modified come from:
 
-- [Shutdown Menu, Application Launcher, Window Switcher](https://github.com/adi1090x/rofi)
+- [Shutdown Menu, Application Launcher, Window Switcher](https://github.com/adi1090x/rofi) from adi1090x
   > Above were modified by me.
 
-- [swayNC config](https://github.com/kurtnettle/dotfiles/tree/a34af4152f579d705772273ae2fd45040c1b45a7/swaync)
-  > Used as is.
+- [swayNC config](https://github.com/kurtnettle/dotfiles/tree/a34af4152f579d705772273ae2fd45040c1b45a7/swaync) from kurtnettle
+  > Mostly used as is.
+
+I however, am including their configs here, because of the changes done by me.
 
 ## Written by me:
 
