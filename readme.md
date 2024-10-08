@@ -1,6 +1,7 @@
 
 # Solstice
 
+![Local Image](./background.png)
 
 This was my first rice and as such is special to me. A lot of its elements were written by me while some are not. For instance, I modified css for swayNC but accidentally deleted it, now I am using the unmodified version.
 
